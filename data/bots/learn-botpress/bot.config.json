@@ -1,0 +1,39 @@
+{
+  "locked": false,
+  "details": {},
+  "skillChoice": {
+    "matchNLU": true,
+    "matchNumbers": true
+  },
+  "skillSendEmail": {
+    "transportConnectionString": "<<change me>>"
+  },
+  "$schema": "../../bot.config.schema.json",
+  "description": "A bot with a simple workflow made for learning Botpress.",
+  "active": true,
+  "author": "Botpress, Inc.",
+  "license": "AGPL-3.0",
+  "name": "Learn Botpress",
+  "imports": {
+    "modules": [],
+    "incomingMiddleware": [],
+    "outgoingMiddleware": []
+  },
+  "dialog": {
+    "timeoutInterval": "5m"
+  },
+  "logs": {
+    "expiration": "1 week"
+  },
+  "defaultLanguage": "en",
+  "languages": [
+    "en"
+  ],
+  "id": "learn-botpress",
+  "messaging": {
+    "clientId": "b6a61e9e-ad7a-4daf-945f-a7bd38c1ca2a",
+    "clientToken": "9a301fa7-78b5-4974-9de2-50f0ac4d989e.AupTHfVOnjd47JV/131O0hEEju5aYpkHWm4OnDE58I1cTRGnvDiECDopIbaiagKWPYXq9y49hUNmRFoNkao0myrD",
+    "channels": {},
+    "webhookToken": "LX/1NSyo8IvjEcxolLebW3bdO93cVb4NlcpnokLEDDB1uFALC++TTQVqsarbjAcmzWGhRla3B/SsDkYLGvI76p7g"
+  }
+}
